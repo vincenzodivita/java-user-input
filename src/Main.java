@@ -2,11 +2,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        // Import Scanner
         Scanner scanner = new Scanner(System.in);
 
-        String test = scanner.nextLine();
+        // Questions
+        String question1 = "Ciao, come ti chiami?";
+        String question2 = "Piacere di conoscerti, da dove vieni?";
+        String question3 = "Bel posto! E quanti anni hai?";
 
-        System.out.println(test);
+        // First Q&A
+        System.out.println(question1);
+        String name = scanner.nextLine();
+        
+        // Second Q&A
+        System.out.println(question2);
+        String country = scanner.nextLine();
+        
+        // Third Q&A
+        System.out.println(question3);
+        String age = scanner.nextLine();
+
+        // Report printing
+        System.out.println(name + country + age);
     }
 }
