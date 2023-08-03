@@ -23,6 +23,6 @@ public class Main {
         String age = scanner.nextLine();
 
         // Report printing
-        System.out.println(name + country + age);
+        System.out.println("Quindi se ho capito bene ti chiami " + name + ", hai " + age + " anni e vieni da " + country + "!");
     }
 }
