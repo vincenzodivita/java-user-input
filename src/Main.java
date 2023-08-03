@@ -20,7 +20,8 @@ public class Main {
         
         // Third Q&A
         System.out.println(question3);
-        String age = scanner.nextLine();
+        int age = scanner.nextInt();
+        scanner.nextLine();
 
         // Report printing
         System.out.println("Quindi se ho capito bene ti chiami " + name + ", hai " + age + " anni e vieni da " + country + "!");
