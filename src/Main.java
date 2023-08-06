@@ -25,5 +25,7 @@ public class Main {
 
         // Report printing
         System.out.println("Quindi se ho capito bene ti chiami " + name + ", hai " + age + " anni e vieni da " + country + "!");
+
+        scanner.close();
     }
 }
